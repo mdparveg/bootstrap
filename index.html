@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>bootstrap Booting</title>
     <link rel="stylesheet" href="bootstrap-4.5.0-dist/css/bootstrap.min.css">
+    <style>
+        h1{
+            margin-top: 100px;
+        }
+    </style>
 </head>
 <body>
     <h1>Hello bootstrap</h1>
@@ -23,12 +28,96 @@
 
     <h1>Background</h1>
     <div>
-        <h1>My news</h1>
-        <p>my paragraph</p>
+        <h1 class="text-white bg-dark">My news</h1>
+        <p class="text-white bg-primary">my paragraph</p>
     </div>
     <div>
-        <h1>My hobby</h1>
-        <p>my coding</p>
+        <h1 class="text-primary">My hobby</h1>
+        <a class="text-primary" href="#">my link</a>
+        <p class="text-danger"> my coding</p>
+        <h1>Images</h1>
+        <img class="img-fluid w-25 rounded-circle img-thumbnail" src="images/a.jpg" alt="">
+        <img class="img-fluid w-25 rounded-circle img-thumbnail" src="images/a2.jpg" alt="">
     </div>
+
+
+
+    <h1>Card</h1>
+    <div class="card" style="width: 18rem;">
+        <img src="images/a3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">This is me</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">By now</a>
+        </div>
+      </div>
+        <br>
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Offer</h5>
+          <h6 class="card-subtitle mb-2 p-2 text-primary">Card subtitle</h6>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="card-link">Card link</a>
+          <a href="#" class="card-link">Another link</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <div class="card-header">
+          <h1>Featured</h1>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item bg-primary text-white">Cras justo odio</li>
+          <li class="list-group-item">Dapibus ac facilisis in</li>
+          <li class="list-group-item">Vestibulum at eros</li>
+        </ul>
+      </div>
+
+      <div class="card" style="width: 288px;">
+        <div class="card-header">
+          Featured
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Special title treatment</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+
+      <div class="card-deck">
+        <div class="card">
+          <img src="images/a3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/a1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/a.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+
+      <h1>navigation</h1>
+
+        <nav class="nav">
+           <a class="nav-link active" href="">Home</a>
+           <a class="nav-link" href="">products</a> 
+           <a class="nav-link" href="">shoipping</a> 
+           <a class="nav-link" href="">shipping</a>
+        </nav>
 </body>
 </html>
